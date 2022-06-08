@@ -1,0 +1,91 @@
+.headerUlMargin {
+  margin-right: 5%;
+}
+.headerLiMargin {
+  margin-left: 2em;
+}
+.titleMargin {
+  margin-left: 1%;
+}
+
+.botonYaCuenta {
+  margin: 52px;
+}
+
+.botonRegistro {
+  display: block;
+  width: 100%;
+
+}
+
+.singUpTitle {
+  font-size: 5em;
+  font-family: "Console", monospace;
+  color: blue;
+}
+
+.headerPcbre {
+  background-color: #00bbffe0 !important;
+}
+
+.headerPcbre div {
+  margin-left: 15px;
+}
+
+.bluecustom {
+  background-color: #00bbffe0 !important;
+}
+
+.signInSection {
+  font-size: 2.3em;
+}
+
+.signUpSection {
+  margin-top: 0.5%;
+  font-size: 2em;
+}
+
+.sectionCustom {
+  font-size: 2.3em;
+  margin-left: 1.5em;
+}
+
+.sectionBottomCustom {
+  font-size: 1.8em;
+}
+
+.inline-icon {
+  vertical-align: bottom;
+  font-size: 18px !important;
+}
+
+.textoCategoriasRelevantes {
+  font-size: 0.85em;
+}
+
+.signInMargin {
+  margin-top: 5%;
+}
+
+.signUpMargin {
+  margin-top: 2%;
+}
+
+.icon-white {
+  color: whitesmoke
+}
+
+.back-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  border-radius: 10%;
+  background: #e1e6e9;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
