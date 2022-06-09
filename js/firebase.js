@@ -88,7 +88,7 @@ const firebaseConfig = {
   reference.once('value', snapshot => {
     if (snapshot.val()) {
       if (password == snapshot.val().password) {
-        window.location.replace('./main.html');
+        window.location.replace('./index.html');
       } else {
         M.toast({html: 'Parece que la contraseña que has ingresado no corresponde a ese usuario', classes: 'orange'});
       }

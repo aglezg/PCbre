@@ -1,7 +1,7 @@
 // sessionStorage.removeItem('articulos')
 
 $("button").click(function() {
-  if ($(this).attr("class") == "monitor btn waves-effect blue") {
+  if ($(this).attr("class") == "article btn waves-effect blue") {
     var nombre = $(this).val();
     var precio = $(this).attr('precio');
     M.toast({html:'Has agregado ' + nombre + '' , classes: 'blue'});
@@ -85,7 +85,7 @@ function getConvert(source, target, boleano) {
   var cantidad = 0
   var storedArray = JSON.parse(sessionStorage.getItem("articulos"));
   for(var i = 0; i<storedArray.length; i+=2) {
-    cantidad += parseInt(storedArray[i+1])
+    cantidad += parseFloat(storedArray[i+1])
   }
   if (boleano != false) {
     url = `https://api.apilayer.com/fixer/convert?to=${target}&from=${source}&amount=${cantidad}`
